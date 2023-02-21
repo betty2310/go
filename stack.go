@@ -42,7 +42,7 @@ func (x *Int) isEmpty() bool {
 func main() {
 	var value = Int{1, 2, 3, 5, 12}
 	var s stack = &value
-	// s.push(2)
+	s.push(2)
 	fmt.Println(s.count(), s.peek())
 	s.pop()
 	fmt.Println(s.count(), s.peek())
